@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<style>
+		ul,ol{
+	    list-style: none;
+	    }
+	    a {
+	    	text-decoration: none;
+	    }
+        .clearFix::before,
+        .clearFix::after{
+		    content: "";
+		    display: block;
+		    visibility: hidden;
+		    height: 0;
+		    line-height: 0;
+		    clear: both;
+		}
+		html,body {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+		}
+        .box-content {
+            min-height: 100%;
+        	max-width: 750px;
+        	background: url(image/bg.jpg) no-repeat top;
+        	-webkit-background-size: cover;
+        	background-size: cover;
+        	box-sizing: border-box;
+        	margin: 0 auto;
+        	overflow: hidden;
+        }
+        .logo {
+        	padding: 4% 0 0 15px;
+        }
+        .logo img{
+        	width: 38%;
+        }
+        .title {
+        	margin-top: 3%;
+        	text-align: center;
+        }
+        .title img {
+        	width: 85%;
+        }
+        .title .btn {
+        	display: inline-block;
+        	padding: 1% 23px;
+        	border-radius: 23px;
+        	color: #fff;
+        	font-size: 16px;
+        	border: 1px solid #fff;
+        	margin-top: 2px;
+        	background: -webkit-linear-gradient(left,  #3c83f9 0%,#477cf6 30%,#5a71f0 60%,#666aed 100%);
+        	background: -o-linear-gradient(left,  #3c83f9 0%,#477cf6 30%,#5a71f0 60%,#666aed 100%);
+        	background: -ms-linear-gradient(left,  #3c83f9 0%,#477cf6 30%,#5a71f0 60%,#666aed 100%);
+        	background: linear-gradient(left,  #3c83f9 0%,#477cf6 30%,#5a71f0 60%,#666aed 100%);
+        }
+        .what {
+        	text-align: center;
+        	margin-top: 22%;
+        }
+        .what .one {
+        	color: #10e5f8;
+        	font-size: 17px;
+        	font-weight: 700;
+        	letter-spacing: 2px;
+        }
+        .what .two {
+        	color: #ffffff;
+        	font-size: 14px;
+        	width: 86%;
+        	margin-left: 7%;
+        	line-height: 20px;
+        	margin-top: 2%;
+        }
+        .what img {
+        	vertical-align: middle;
+        	width: 7%;
+        }
+        .what2 {
+        	margin-top: 6%;
+        }
+        .erCode {
+        	margin-top: 7%;
+        	text-align: center;
+        }
+        .erCode .conImg {
+        	display: inline-block;
+        	width: 40%;
+        	background-color: #fff;
+        	border-radius: 8px;
+        }
+        .erCode .img {
+        	padding: 5px;
+        }
+        .erCode .img img {
+        	width: 100%;
+        }
+        .erCode .text {
+        	height: 45px;
+        	background-color: #e1e8f3;
+        	color: #333;
+        	font-size: 13px;
+        	border-radius: 0 0 8px 8px;
+        	box-sizing: border-box;
+        	padding-top: 1%;
+        }
+        .erCode .text p {
+        	margin: 0;
+        }
+	</style>
+</head>
+<body>
+	<div class="box-content">
+        <div class="logo">
+           <a href="#"><img src="image/logo.png" alt="h5"></a>
+        </div>
+        <div class="title">
+           <img src="image/title.png" alt="h5">
+           <a href="#" class="btn">立即绑定丨接收商机</a>
+        </div>
+        <div class="what">
+           <div class="one"><img src="image/pic_left.png" alt="h5">&nbsp;生意帮是什么？<img src="image/pic_right.png" alt="h5"></div>
+           <div class="two">生意帮以大数据技术为支撑，为您呈现最直观的营销效果。助力企业获取更多商机。</div>
+        </div>
+        <div class="what what2">
+           <div class="one"><img src="image/pic_left.png" alt="h5">&nbsp;关注生意帮公众号能带来什么？<img src="image/pic_right.png" alt="h5"></div>
+           <div class="two">生意帮公众号为您实时推送商机，及时的将商机通知给您，让您不错过每一条商机。</div>
+        </div>
+        <div class="erCode">
+            <div class="conImg">
+	            <div class="img"><img src="image/erweima.jpg" alt="h5"></div>
+	            <div class="text"><p>长按二维码</p><p>绑定信融生意帮</p></div>
+            </div>
+        </div>
+	</div>
+</body>
+</html>
